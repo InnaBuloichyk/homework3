@@ -1,0 +1,57 @@
+* {
+     margin: 0;
+     box-sizing: border-box;
+ }
+body {
+     margin: 0;
+     font-family: 'Roboto', sans-serif;
+     background-image: url(flowers.jpg);
+     background-size: cover;
+
+ }   
+hr {
+     width: 700px;
+     margin: 0 auto;
+     border: 3px solid rgb(117, 94, 77);
+
+ }
+header {
+     overflow: hidden;
+     height: auto;
+     width: 1100px; 
+     text-align: left;
+     margin: 30px;
+     padding: 5px;
+ }
+.avatar {
+     float: left;
+     width: 250px;
+     border-radius: 50%;
+     border: 10px solid #d8a8f0;
+     left: auto;
+ }
+section, footer {
+     overflow: hidden;
+     height: auto;
+     width: 700px;
+     border: 1px solid rgb(43, 16, 12);
+     padding: 10px;
+     margin: 5px auto;
+ }
+footer { 
+    padding: 20px;
+ }
+
+ .title-container{
+    padding-left: 330px; 
+    padding-top: 30px;
+ }
+ .title {
+     font-size: 2.5em;
+     color: #d8a8f0;
+     font-weight: 700;
+ }
+
+ .subtitle {
+    font-size: 2em;
+}
